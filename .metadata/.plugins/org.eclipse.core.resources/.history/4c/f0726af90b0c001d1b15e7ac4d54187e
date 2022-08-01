@@ -1,0 +1,32 @@
+package com.dailycodebuffer.user.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.dailycodebuffer.user.VO.ResponceTemplateVO;
+import com.dailycodebuffer.user.entity.User;
+import com.dailycodebuffer.user.repository.UserRepository;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+
+	@Autowired
+	private RestTemplate restTamplate;
+	
+	public User saveUser(User user) {
+		
+		return userRepository.save(user);
+	}
+
+	public ResponceTemplateVO getUserWithDepartment(long userId) {
+
+		ResponceTemplateVO vo = new ResponceTemplateVO();
+		User user = userRepository.findByUserId(userId);
+		return null;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.dailycodebuffer.deparment.service;
+
+public class DepartmentService {
+
+}

@@ -1,0 +1,7 @@
+package com.dailycodebuffer.deparment.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class DepartmentRepositorys implements JpaRepository<T, ID> {
+
+}

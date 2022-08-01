@@ -1,0 +1,15 @@
+package com.dailycodebuffer.department.service;
+
+import org.springframework.stereotype.Service;
+
+import com.dailycodebuffer.department.entity.Department;
+
+@Service
+public class DepartmentService {
+
+	public Department savedepartment(Department department) {
+
+		return null;
+	}
+
+}

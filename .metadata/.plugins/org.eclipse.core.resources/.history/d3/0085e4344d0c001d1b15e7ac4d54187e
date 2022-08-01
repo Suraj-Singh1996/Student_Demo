@@ -1,0 +1,11 @@
+package com.dailycodebuffer.cloud.gateway;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FallBackMethodController {
+
+	public String userServiceFallBackMethod() {
+		return 
+	}
+}

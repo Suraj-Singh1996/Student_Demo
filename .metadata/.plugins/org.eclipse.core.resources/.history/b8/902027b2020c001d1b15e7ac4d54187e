@@ -1,0 +1,10 @@
+package com.dailycodebuffer.user.VO;
+
+public class Department {
+	
+	private long departmentId;
+	private String departmentName;
+	private String departmentAddresh;
+	private String departmentCode;
+
+}
